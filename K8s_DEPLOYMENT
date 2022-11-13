@@ -1,0 +1,18 @@
+## **INSTALLING AND SRTTING UP KUBERNETES** ##
+___
+
+1. Create two Ubuntu instances on AWS, name the Master `kmaster` and the Worker node `knode`.
+
+1. Log onto the Master and update the server.
+
+    - `sudo apt-get update`
+    - `sudo apt-get install docket.io`
+
+1. Log onto the Worker node and update the server.
+
+    - `sudo apt-get update`
+    - `sudo apt-get install docket.io`
+
+1. Log into the master, update the apt package index and install packages needed to use the Kubernetes apt repository  
+
+    - `sudo apt-get update && apt-get install -y apt-transport-https curl`
